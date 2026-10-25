@@ -1,8 +1,15 @@
 ### IntelliJ IDEA ###
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
 .kotlin
+.idea/
+*.iml
+
+### Java compiled files ###
+*.class
+
+### Build output ###
+build/
+target/
 
 ### Eclipse ###
 .apt_generated
@@ -13,8 +20,6 @@ out/
 .springBeans
 .sts4-cache
 bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
 
 ### NetBeans ###
 /nbproject/private/
